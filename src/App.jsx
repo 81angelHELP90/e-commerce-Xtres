@@ -3,11 +3,10 @@ import "bootstrap/dist/js/bootstrap.min.js"
 import { useState } from 'react'
 import './App.css'
 import NavBar from "./components/navbar/NavBar.jsx"
-import CartWidget from "./components/navbar/CartWidget.jsx"
+import CartWidget from "./components/cart/CartWidget.jsx"
 
 function App() {
-  //const [count, setCount] = useState(0)
-
+  
   return (
     <>
       <body className="container-fluid">
@@ -19,7 +18,7 @@ function App() {
           <div className="row">
           <main>
             <section className="">
-              <button type="button" className="btn btn-primary">Primary</button>
+              
             </section>
           </main>
           </div>

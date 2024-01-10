@@ -1,3 +1,4 @@
+
 body{
   	display: flex;
 	flex-direction: column;
@@ -6,7 +7,9 @@ body{
 	align-items: stretch;
 	align-content: stretch;
 }
+/*Nav-Bar*/
 .box-NavBar {
+	background: #F8F9FA;
   	width: 100%;
   	display: flex;
 	flex-direction: row;
@@ -14,6 +17,19 @@ body{
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: stretch;
+}
+
+.box-cart {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+#countItem {
+	
 }
 
 
