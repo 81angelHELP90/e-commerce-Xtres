@@ -3,7 +3,8 @@ import "bootstrap/dist/js/bootstrap.min.js"
 import { useState } from 'react'
 import '../../App.css'
 
-function CartWidget() {
+//function CartWidget() {
+const CartWidget = () => {
     return (
         <div className="box-cart">
             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"

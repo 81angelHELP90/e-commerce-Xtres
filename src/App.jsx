@@ -3,27 +3,23 @@ import "bootstrap/dist/js/bootstrap.min.js"
 import './App.css'
 import NavBar from "./components/navbar/NavBar.jsx"
 import CartWidget from "./components/cart/CartWidget.jsx"
+import CountWidget from "./components/count/CountWidget.jsx"
 
-function App() {
-  
+const App = () => {
   return (
-    <>
-      <body className="container-fluid">
+    <body className="container-fluid">
+      <div className="row">
         <header className="box-NavBar">
-          <NavBar className="navBar"/>
-          <CartWidget/>
+          <NavBar className="navBar" />
+          <CartWidget />
         </header>
-        <div className="container-fluid">
-          <div className="row">
-          <main>
-            <section className="">
-              
-            </section>
-          </main>
-          </div>
-        </div>
-      </body>
-    </>
+        <main>
+          <section className="sec-count">
+            <CountWidget />
+          </section>
+        </main>
+      </div>
+    </body>
   )
 }
 

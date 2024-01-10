@@ -2,7 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import '../../App.css'
 
-function NavBar() {
+//function NavBar() {
+const NavBar = () => {
     return (
 
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
