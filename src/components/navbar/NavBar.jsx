@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
+import CartWidget from "../cart/CartWidget.jsx"
 import '../../App.css'
 
 function NavBar() {
     return (
-
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary box-navbar">
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -25,8 +25,8 @@ function NavBar() {
                     </form>
                 </div>
             </div>
+            <CartWidget/>
         </nav>
-
     )
 }
 
