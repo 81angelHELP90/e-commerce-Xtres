@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import '../../App.css'
 
-function ItemListContainer({ mesaage }) {
+function ItemListContainer({ greeting }) {
     return (
         <>
             <select className="form-select" aria-label="Default select example">
@@ -11,8 +11,8 @@ function ItemListContainer({ mesaage }) {
                 <option value="2">Two</option>
                 <option value="3">Three</option>
             </select>
-            <div className="alert alert-warning alert-dismissible fade show" role="alert">
-                <strong>{mesaage}</strong>
+            <div className="alert alert-warning alert-dismissible fade show my-5" role="alert">
+                <strong>{greeting}</strong>
                 <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
             </div>
         </>

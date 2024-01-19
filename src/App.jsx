@@ -17,7 +17,7 @@ function App() {
           <div className="row">
             <main>
               <section className="col-md-6 offset-md-3 mt-5">
-                <ItemListContainer text="Mensaje de prueba.."/>
+                <ItemListContainer greeting="Saludo de prueba.."/>
               </section>
             </main>
           </div>
