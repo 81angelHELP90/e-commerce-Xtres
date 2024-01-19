@@ -4,8 +4,10 @@ import './App.css'
 import NavBar from "./components/navbar/NavBar.jsx"
 import CartWidget from "./components/cart/CartWidget.jsx"
 import CountWidget from "./components/count/CountWidget.jsx"
+import { useState } from "react"
 
 const App = () => {
+
   return (
     <body className="container-fluid">
       <div className="row">
@@ -15,7 +17,9 @@ const App = () => {
         </header>
         <main>
           <section className="sec-count">
+          {/* 15-01-24 */}
             <CountWidget />
+            
           </section>
         </main>
       </div>
