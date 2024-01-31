@@ -1,6 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
+import CartWidget from "../cart/CartWidget.jsx"
+import Catalogo from "../catalogo/Catalogo.jsx"
 import '../../App.css'
+import { NavLink } from "react-router-dom"
 
 const NavBar = () => {
     return (
@@ -13,10 +16,16 @@ const NavBar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <NavLink className="nav-link active text-while" aria-current="page" to="/">Home</NavLink>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Catalogo
+                            </a>
+                            <Catalogo />
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Features</a>
+                            <NavLink className="nav-link text-while" to="/detalle">Detalle</NavLink>
                         </li>
                     </ul>
                     <form className="d-flex" role="search">
@@ -25,6 +34,7 @@ const NavBar = () => {
                     </form>
                 </div>
             </div>
+            <CartWidget/>
         </nav>
 
     )

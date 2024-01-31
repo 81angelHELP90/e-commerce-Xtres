@@ -1,13 +1,8 @@
-
-body{
-  	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
+#img404 {
+	width: 750px;
+	height: 750px;
 }
-/*Nav-Bar*/
+
 .box-NavBar {
 	background: #F8F9FA;
   	width: 100%;
@@ -48,8 +43,14 @@ body{
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
-	min-width: 250px;
+	min-width: 150px;
+	max-width: 200px;
+	height: 25px;
 	border-radius: 25px;
+}
+
+.box-cart-count img{
+	width: 40px;
 }
 
 .element-count {
@@ -60,6 +61,53 @@ body{
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
+}
+
+.container-fluid .cards-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+	margin-top: 30px;
+}
+
+.container-fluid .card-box {
+	flex: 1 1 250px;
+	margin: 10px;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 2px solid #D5DBDB;
+	border-radius: 20px;
+}
+
+.container-fluid .detail-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.container-fluid .detail-card {
+	flex: 1 1 95px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.box-description {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content:  space-around;
+	align-items: center;
+	align-content: center;
+}
+
+@media (max-width: 767px){
+	
 }
 
 
