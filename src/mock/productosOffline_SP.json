@@ -1,9 +1,9 @@
 [
     {
         "id": 22,
-        "title": "Sleek Wireless Computer Mouse",
+        "title": "Mouse inalámbrico elegante para computadora",
         "price": 10,
-        "description": "Experience smooth and precise navigation with this modern wireless mouse, featuring a glossy finish and a comfortable ergonomic design. Its responsive tracking and easy-to-use interface make it the perfect accessory for any desktop or laptop setup. The stylish blue hue adds a splash of color to your workspace, while its compact size ensures it fits neatly in your bag for on-the-go productivity.",
+        "description": "Experimente una navegación fluida y precisa con este moderno mouse inalámbrico, que presenta un acabado brillante y un cómodo diseño ergonómico. Su seguimiento receptivo y su interfaz fácil de usar lo convierten en el accesorio perfecto para cualquier configuración de computadora de escritorio o portátil. El elegante El tono azul añade un toque de color a tu espacio de trabajo, mientras que su tamaño compacto garantiza que cabe perfectamente en tu bolso para una productividad mientras estás en movimiento.",
         "images": [
             "https://i.imgur.com/w3Y8NwQ.jpeg",
             "https://i.imgur.com/WJFOGIC.jpeg",
@@ -21,9 +21,9 @@
     },
     {
         "id": 28,
-        "title": "Sleek Modern Leather Sofa",
+        "title": "Sofá de cuero moderno y elegante",
         "price": 53,
-        "description": "Enhance the elegance of your living space with our Sleek Modern Leather Sofa. Designed with a minimalist aesthetic, it features clean lines and a luxurious leather finish. The robust metal legs provide stability and support, while the plush cushions ensure comfort. Perfect for contemporary homes or office waiting areas, this sofa is a statement piece that combines style with practicality.",
+        "description": "Mejore la elegancia de su espacio vital con nuestro elegante sofá de cuero moderno. Diseñado con una estética minimalista, presenta líneas limpias y un lujoso acabado de cuero. Las patas de metal robustas proporcionan estabilidad y soporte, mientras que los cojines de lujo aseguran la comodidad. Perfecto para casas contemporáneas o áreas de espera de oficina, este sofá es una pieza de declaración que combina estilo con practicidad.",
         "images": [
             "https://i.imgur.com/Qphac99.jpeg",
             "https://i.imgur.com/dJjpEgG.jpeg",
@@ -41,9 +41,9 @@
     },
     {
         "id": 30,
-        "title": "Elegant Golden-Base Stone Top Dining Table",
+        "title": "Elegante mesa de comedor con tapa de piedra y base dorada",
         "price": 66,
-        "description": "Elevate your dining space with this luxurious table, featuring a sturdy golden metal base with an intricate rod design that provides both stability and chic elegance. The smooth stone top in a sleek round shape offers a robust surface for your dining pleasure. Perfect for both everyday meals and special occasions, this table easily complements any modern or glam decor.",
+        "description": "Eleve su espacio de comedor con esta lujosa mesa, con una robusta base de metal dorado con un intrincado diseño de caña que proporciona estabilidad y elegancia elegante. La tapa de piedra lisa en una elegante forma redonda ofrece una superficie robusta para su placer gastronómico. Perfecto para comidas cotidianas y ocasiones especiales, esta mesa complementa fácilmente cualquier decoración moderna o glamorosa.",
         "images": [
             "https://i.imgur.com/NWIJKUj.jpeg",
             "https://i.imgur.com/Jn1YSLk.jpeg",
@@ -61,9 +61,9 @@
     },
     {
         "id": 32,
-        "title": "Elegant Solid Wood Dining Table",
+        "title": "Elegante mesa de comedor de madera maciza",
         "price": 67,
-        "description": "Enhance your dining space with this sleek, contemporary dining table, crafted from high-quality solid wood with a warm finish. Its sturdy construction and minimalist design make it a perfect addition for any home looking for a touch of elegance. Accommodates up to six guests comfortably and includes a striking fruit bowl centerpiece. The overhead lighting is not included.",
+        "description": "Mejore su espacio de comedor con esta elegante mesa de comedor contemporánea, elaborada con madera maciza de alta calidad con un acabado cálido. Su robusta construcción y diseño minimalista lo convierten en un complemento perfecto para cualquier hogar que busque un toque de elegancia. Acomoda hasta seis invitados cómodamente e incluye una sorprendente pieza central del tazón de frutas. La iluminación superior no está incluida.",
         "images": [
             "https://i.imgur.com/4lTaHfF.jpeg",
             "https://i.imgur.com/JktHE1C.jpeg",
@@ -81,9 +81,9 @@
     },
     {
         "id": 33,
-        "title": "Modern Minimalist Workstation Setup",
+        "title": "Configuración de escritorio de trabajo minimalista moderno",
         "price": 49,
-        "description": "Elevate your home office with our Modern Minimalist Workstation Setup, featuring a sleek wooden desk topped with an elegant computer, stylish adjustable wooden desk lamp, and complimentary accessories for a clean, productive workspace. This setup is perfect for professionals seeking a contemporary look that combines functionality with design.",
+        "description": "Eleve su oficina en casa con nuestra moderna configuración de estación de trabajo minimalista, con un elegante escritorio de madera con una elegante computadora, elegante lámpara de escritorio de madera ajustable y accesorios de cortesía para un espacio de trabajo limpio y productivo. Esta configuración es perfecta para profesionales que buscan un aspecto contemporáneo que combine la funcionalidad con el diseño.",
         "images": [
             "https://i.imgur.com/3oXNBst.jpeg",
             "https://i.imgur.com/ErYYZnT.jpeg",
@@ -101,9 +101,9 @@
     },
     {
         "id": 34,
-        "title": "Modern Ergonomic Office Chair",
+        "title": "Silla de oficina ergonómica moderna",
         "price": 71,
-        "description": "Elevate your office space with this sleek and comfortable Modern Ergonomic Office Chair. Designed to provide optimal support throughout the workday, it features an adjustable height mechanism, smooth-rolling casters for easy mobility, and a cushioned seat for extended comfort. The clean lines and minimalist white design make it a versatile addition to any contemporary workspace.",
+        "description": "Eleve su espacio de oficina con esta elegante y cómoda silla de oficina ergonómica moderna. Diseñado para proporcionar un soporte óptimo durante la jornada laboral, presenta un mecanismo de altura ajustable, ruedas de rodillas suaves para una fácil movilidad y un asiento acolchado para una comodidad extendida. Las líneas limpias y el diseño blanco minimalista lo convierten en una adición versátil a cualquier espacio de trabajo contemporáneo.",
         "images": [
             "https://i.imgur.com/3dU0m72.jpeg",
             "https://i.imgur.com/zPU3EVa.jpeg"
@@ -120,9 +120,9 @@
     },
     {
         "id": 35,
-        "title": "Futuristic Holographic Soccer Cleats",
+        "title": "Botines de fútbol holográficas futuristas",
         "price": 39,
-        "description": "Step onto the field and stand out from the crowd with these eye-catching holographic soccer cleats. Designed for the modern player, these cleats feature a sleek silhouette, lightweight construction for maximum agility, and durable studs for optimal traction. The shimmering holographic finish reflects a rainbow of colors as you move, ensuring that you'll be noticed for both your skills and style. Perfect for the fashion-forward athlete who wants to make a statement.",
+        "description": "Sube al campo y destaca entre la multitud con estos llamativos tacos holográficos de fútbol. Diseñado para el jugador moderno, estos tacos cuentan con una silueta elegante, construcción liviana para la máxima agilidad y pernos duraderos para una tracción óptima. El brillante acabado holográfico refleja un arco iris de colores a medida que te mueves, asegurando que te notarán tanto para tus habilidades como para el estilo. Perfecto para el atleta de moda que quiere hacer una declaración.",
         "images": [
             "https://i.imgur.com/qNOjJje.jpeg",
             "https://i.imgur.com/NjfCFnu.jpeg",
@@ -140,9 +140,9 @@
     },
     {
         "id": 36,
-        "title": "Rainbow Glitter High Heels",
+        "title": "Tacones altos con purpurina arcoíris",
         "price": 39,
-        "description": "Step into the spotlight with these eye-catching rainbow glitter high heels. Designed to dazzle, each shoe boasts a kaleidoscope of shimmering colors that catch and reflect light with every step. Perfect for special occasions or a night out, these stunners are sure to turn heads and elevate any ensemble.",
+        "description": "Entra en el centro de atención con estos llamativos tacones altos de brillo del arco iris. Diseñado para deslumbrar, cada zapato cuenta con un caleidoscopio de colores brillantes que atrapan y reflejan la luz con cada paso. Perfecto para ocasiones especiales o una noche de salida, estos aturdidores seguramente tocan la cabeza y elevarán cualquier conjunto.",
         "images": [
             "https://i.imgur.com/62gGzeF.jpeg",
             "https://i.imgur.com/5MoPuFM.jpeg",
@@ -160,7 +160,7 @@
     },
     {
         "id": 37,
-        "title": "Chic Summer Denim Espadrille Sandals",
+        "title": "Sandalias de alpargatas elegantes de verano",
         "price": 33,
         "description": "Step into summer with style in our denim espadrille sandals. Featuring a braided jute sole for a classic touch and adjustable denim straps for a snug fit, these sandals offer both comfort and a fashionable edge. The easy slip-on design ensures convenience for beach days or casual outings.",
         "images": [
@@ -180,7 +180,7 @@
     },
     {
         "id": 38,
-        "title": "Vibrant Runners: Bold Orange & Blue Sneakers",
+        "title": "Corredores vibrantes: zapatillas naranjas y azules",
         "price": 27,
         "description": "Step into style with these eye-catching sneakers featuring a striking combination of orange and blue hues. Designed for both comfort and fashion, these shoes come with flexible soles and cushioned insoles, perfect for active individuals who don't compromise on style. The reflective silver accents add a touch of modernity, making them a standout accessory for your workout or casual wear.",
         "images": [
@@ -200,7 +200,7 @@
     },
     {
         "id": 39,
-        "title": "Vibrant Pink Classic Sneakers",
+        "title": "Zapatillas clásicas de color rosa vibrante",
         "price": 84,
         "description": "Step into style with our Vibrant Pink Classic Sneakers! These eye-catching shoes feature a bold pink hue with iconic white detailing, offering a sleek, timeless design. Constructed with durable materials and a comfortable fit, they are perfect for those seeking a pop of color in their everyday footwear. Grab a pair today and add some vibrancy to your step!",
         "images": [
@@ -220,7 +220,7 @@
     },
     {
         "id": 40,
-        "title": "Futuristic Silver and Gold High-Top Sneaker",
+        "title": "Zapatilla alta futurista plateada y dorada",
         "price": 68,
         "description": "Step into the future with this eye-catching high-top sneaker, designed for those who dare to stand out. The sneaker features a sleek silver body with striking gold accents, offering a modern twist on classic footwear. Its high-top design provides support and style, making it the perfect addition to any avant-garde fashion collection. Grab a pair today and elevate your shoe game!",
         "images": [
@@ -240,7 +240,7 @@
     },
     {
         "id": 41,
-        "title": "Futuristic Chic High-Heel Boots",
+        "title": "Zapatilla alta futurista plateada y dorada",
         "price": 36,
         "description": "Elevate your style with our cutting-edge high-heel boots that blend bold design with avant-garde aesthetics. These boots feature a unique color-block heel, a sleek silhouette, and a versatile light grey finish that pairs easily with any cutting-edge outfit. Crafted for the fashion-forward individual, these boots are sure to make a statement.",
         "images": [
@@ -260,7 +260,7 @@
     },
     {
         "id": 42,
-        "title": "Elegant Patent Leather Peep-Toe Pumps with Gold-Tone Heel",
+        "title": "Elegantes zapatos de tacón peep-toe de charol con tacón dorado",
         "price": 53,
         "description": "Step into sophistication with these chic peep-toe pumps, showcasing a lustrous patent leather finish and an eye-catching gold-tone block heel. The ornate buckle detail adds a touch of glamour, perfect for elevating your evening attire or complementing a polished daytime look.",
         "images": [
@@ -280,7 +280,7 @@
     },
     {
         "id": 43,
-        "title": "Elegant Purple Leather Loafers",
+        "title": "Elegantes mocasines de cuero morado",
         "price": 17,
         "description": "Step into sophistication with our Elegant Purple Leather Loafers, perfect for making a bold statement. Crafted from high-quality leather with a vibrant purple finish, these shoes feature a classic loafer silhouette that's been updated with a contemporary twist. The comfortable slip-on design and durable soles ensure both style and functionality for the modern man.",
         "images": [
@@ -300,7 +300,7 @@
     },
     {
         "id": 44,
-        "title": "Classic Blue Suede Casual Shoes",
+        "title": "Zapatos casuales clásicos de gamuza azul",
         "price": 39,
         "description": "Step into comfort with our Classic Blue Suede Casual Shoes, perfect for everyday wear. These shoes feature a stylish blue suede upper, durable rubber soles for superior traction, and classic lace-up fronts for a snug fit. The sleek design pairs well with both jeans and chinos, making them a versatile addition to any wardrobe.",
         "images": [
@@ -320,7 +320,7 @@
     },
     {
         "id": 45,
-        "title": "Sleek Futuristic Electric Bicycle",
+        "title": "Bicicleta eléctrica futurista elegante",
         "price": 22,
         "description": "This modern electric bicycle combines style and efficiency with its unique design and top-notch performance features. Equipped with a durable frame, enhanced battery life, and integrated tech capabilities, it's perfect for the eco-conscious commuter looking to navigate the city with ease.",
         "images": [
@@ -340,7 +340,7 @@
     },
     {
         "id": 46,
-        "title": "Sleek All-Terrain Go-Kart",
+        "title": "Elegante go-kart todo terreno",
         "price": 37,
         "description": "Experience the thrill of outdoor adventures with our Sleek All-Terrain Go-Kart, featuring a durable frame, comfortable racing seat, and robust, large-tread tires perfect for handling a variety of terrains. Designed for fun-seekers of all ages, this go-kart is an ideal choice for backyard racing or exploring local trails.",
         "images": [
@@ -360,7 +360,7 @@
     },
     {
         "id": 48,
-        "title": "Sleek Olive Green Hardshell Carry-On Luggage",
+        "title": "Elegante equipaje de mano rígido verde oliva",
         "price": 48,
         "description": "Travel in style with our durable hardshell carry-on, perfect for weekend getaways and business trips. This sleek olive green suitcase features smooth gliding wheels for easy airport navigation, a sturdy telescopic handle, and a secure zippered compartment to keep your belongings safe. Its compact size meets most airline overhead bin requirements, ensuring a hassle-free flying experience.",
         "images": [
@@ -378,7 +378,7 @@
     },
     {
         "id": 49,
-        "title": "Chic Transparent Fashion Handbag",
+        "title": "Bolso de moda transparente elegante",
         "price": 61,
         "description": "Elevate your style with our Chic Transparent Fashion Handbag, perfect for showcasing your essentials with a clear, modern edge. This trendy accessory features durable acrylic construction, luxe gold-tone hardware, and an elegant chain strap. Its compact size ensures you can carry your day-to-day items with ease and sophistication.",
         "images": [
@@ -398,7 +398,7 @@
     },
     {
         "id": 51,
-        "title": "Elegant Glass Tumbler Set",
+        "title": "Elegante juego de vaso de vidrio",
         "price": 50,
         "description": "Enhance your drinkware collection with our sophisticated set of glass tumblers, perfect for serving your favorite beverages. This versatile set includes both clear and subtly tinted glasses, lending a modern touch to any table setting. Crafted with quality materials, these durable tumblers are designed to withstand daily use while maintaining their elegant appeal.",
         "images": [
@@ -418,7 +418,7 @@
     },
     {
         "id": 105,
-        "title": "tshirt",
+        "title": "Camiseta",
         "price": 10,
         "description": "tshirt noir",
         "images": [
@@ -436,7 +436,7 @@
     },
     {
         "id": 110,
-        "title": "Majestic Mountain Graphic T-Shirt",
+        "title": "Montaña majestuosa Camiseta gráfica",
         "price": 44,
         "description": "Elevate your wardrobe with this stylish black t-shirt featuring a striking monochrome mountain range graphic. Perfect for those who love the outdoors or want to add a touch of nature-inspired design to their look, this tee is crafted from soft, breathable fabric ensuring all-day comfort. Ideal for casual outings or as a unique gift, this t-shirt is a versatile addition to any collection.",
         "images": [
@@ -456,9 +456,9 @@
     },
     {
         "id": 121,
-        "title": "X-BOX video game console",
+        "title": "Consola de videos juegos X-BOX",
         "price": 2000,
-        "description": "X-BOX video game console",
+        "description": "Consola de videos juegos X-BOX",
         "images": [
             "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/575f288d-3726-438e-9791-ba84f4b8b5ed.ec42f3e6897162415ca60a565513824d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
         ],

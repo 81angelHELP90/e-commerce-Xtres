@@ -6,23 +6,26 @@ import Error404 from "./components/error404/Error404.jsx"
 import ItemListContainer from "./components/itemListContainer/ItemListContainer.jsx"
 import ItemDetailContainer from "./components/itemDetailContainer/ItemDetailContainer.jsx"
 import NavBar from "./components/navbar/NavBar.jsx"
+import React from "react";
+import ContextProvider from "./Context/DinamicContext.jsx"
 
 const App = () => {
 
   return (
-    <BrowserRouter>
-      <div className="container-fluid">
-            <div className="row">
-              <NavBar className="navBar" />
-            </div>
-      </div>
-      <Routes>
-        <Route path="*" element={<Error404 />} />
-        <Route exact path="/" element={<ItemListContainer />} />
-        <Route exact path="/categoria/:categotyId" element={<ItemListContainer />} />
-        <Route exact path="/detalle/:productId" element={<ItemDetailContainer />} />
-      </Routes>
-    </BrowserRouter>
+    <ContextProvider>
+      <BrowserRouter>
+        <div className="container-fluid">
+          <NavBar className="navBar" />
+        </div>
+        <Routes>
+          <Route path="*" element={<Error404 />} />
+          <Route exact path="/" element={<ItemListContainer />} />
+          <Route exact path="/categoria/:categotyId" element={<ItemListContainer />} />
+          <Route exact path="/detalle/:productId" element={<ItemDetailContainer />} />
+          <Route exact path="/producto/:nameProduct" element={<ItemListContainer />} />
+        </Routes>
+      </BrowserRouter>
+    </ContextProvider>
   )
 }
 

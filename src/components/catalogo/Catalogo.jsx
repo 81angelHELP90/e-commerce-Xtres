@@ -21,7 +21,7 @@ const Catalogo = () => {
     return (
           <ul className="dropdown-menu">
             {itemsCatalogo.map(product => (
-                <NavLink className="nav-link text-while" to={`/categoria/${product.id}`}>{product.name}</NavLink>
+                <NavLink key={product.id} className="nav-link text-while" to={`/categoria/${product.id}`}>{product.name}</NavLink>
             ))}
           </ul>
     )

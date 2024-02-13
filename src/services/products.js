@@ -59,7 +59,21 @@ const servicesProducts = {
             })
 
         return categorias
-    }
+    },
+
+    getByProductName(name) {
+        const categorias = []
+
+        listProducts.forEach(item => {
+            let titleUpperCase = item.title.toUpperCase()
+            
+            if(titleUpperCase.includes(name.toUpperCase())) 
+                categorias.push(item)
+            
+        })
+
+        return categorias
+    },
 
 
 }

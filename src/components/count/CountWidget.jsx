@@ -1,17 +1,23 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import '../../App.css'
+import { DinamicContext } from "../../Context/DinamicContext.jsx"
 
-const CountWidget = () => {
+const CountWidget = ({item}) => {
+    const { addProducts, deleteProducts, cartQtyHandler } = useContext(DinamicContext)
     const [count, setCount] = useState(0);
 
     function setCountDown() {
         setCount((count === 0) ? count : count - 1)
+        deleteProducts(item) 
+        cartQtyHandler()
     }
 
     function setCountUp() {
-        setCount(count + 1)
+        setCount(count + 1) 
+        addProducts(item) 
+        cartQtyHandler()
     }
 
     return (
