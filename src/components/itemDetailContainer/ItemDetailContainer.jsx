@@ -22,10 +22,6 @@ const ItemDetailContainer = () => {
         })
     }, [productId])
 
-    /*
-        menor a 890 px
-    */
-
     return (
         <div className="container-fluid">
             <div className="detail-box">
@@ -34,15 +30,15 @@ const ItemDetailContainer = () => {
                         <h5 className="card-title">{product.title}</h5>
                         <p className="card-text">{product.description}</p>
                         <div className="box-description">
-                            <CountWidget />
+                            <CountWidget item={product} />
                         </div> 
                     </div>
                 </div>
                 <div className="detail-card">
                     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
-                            {images.map(imagen => (
-                                <div className="carousel-item active">
+                            {images.map((imagen, i) => (
+                                <div key={`img-${i}`} className="carousel-item active">
                                     <img src={imagen} className="d-block w-100" alt="Detalle imagen" />
                                 </div>
                             ))}

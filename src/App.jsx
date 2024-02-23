@@ -6,11 +6,10 @@ import Error404 from "./components/error404/Error404.jsx"
 import ItemListContainer from "./components/itemListContainer/ItemListContainer.jsx"
 import ItemDetailContainer from "./components/itemDetailContainer/ItemDetailContainer.jsx"
 import NavBar from "./components/navbar/NavBar.jsx"
-import React from "react";
+import { React } from "react";
 import ContextProvider from "./Context/DinamicContext.jsx"
 
 const App = () => {
-
   return (
     <ContextProvider>
       <BrowserRouter>

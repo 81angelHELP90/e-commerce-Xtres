@@ -1,40 +1,22 @@
-import listProducts from "../mock/productosOffline.json"
+//import listProducts from "../mock/productosOffline.json"
 
 const servicesProducts = {
-    getSrvProducs() {
-        return listProducts
+    _listProducts: [],
 
-        /*VER PORQUE NO FUNCIONA
-        const urlProd = "https://api.escuelajs.co/api/v1/products";
-        
-        fetch(urlProd)
-            .then(response => {
-                if(response.ok) 
-                    return response.json();
-                else 
-                    throw new Error("Error fetch");
-            })
-            .then(data => {
-                return data
-            })
-            .catch(error => {
-                console.log(error);
-            })
-        */
-    },
-
-    getUniqueCategories() {
+    getUniqueCategories(oListProducts) {
+        this._listProducts = oListProducts;
         const categorias = []
 
-        listProducts.forEach(item => {
-            if(!categorias.includes(item.category.id)) 
-                categorias.push(item.category)
-            
+        oListProducts.forEach(item => {
+            if(!categorias.includes(item.category.id)) {
+                let index = categorias.findIndex(cat  => cat.id === item.category.id )
+
+                if(index === -1)
+                    categorias.push(item.category)
+            }
         })
-
-        //Limpio el array con categorias unicas
-        return [...new Set(categorias.map(JSON.stringify))].map(JSON.parse);
-
+        
+        return categorias;
     },
     /**
      * 
@@ -46,13 +28,13 @@ const servicesProducts = {
         const categorias = []
 
         if(searchCriteria)
-            listProducts.forEach(item => {
+            this._listProducts.forEach(item => {
                 if(item.id == id) 
                     categorias.push(item)
                 
             })
         else    
-            listProducts.forEach(item => {
+            this._listProducts.forEach(item => {
                 if(item.category.id == id) 
                     categorias.push(item)
                 
@@ -64,7 +46,7 @@ const servicesProducts = {
     getByProductName(name) {
         const categorias = []
 
-        listProducts.forEach(item => {
+        this._listProducts.forEach(item => {
             let titleUpperCase = item.title.toUpperCase()
             
             if(titleUpperCase.includes(name.toUpperCase())) 

@@ -4,26 +4,9 @@ import CartWidget from "../cart/CartWidget.jsx"
 import Catalogo from "../catalogo/Catalogo.jsx"
 import '../../App.css'
 import { NavLink } from "react-router-dom"
-import { useState, useEffect, useContext } from "react"
-import { DinamicContext } from "../../Context/DinamicContext.jsx"
-
-const CartWidgetItems = ({ show }) => {
-    return (
-        <div className={(show) ? "showListElements" : "hiddemComponent"}>
-            <ul className="listElements">
-                <li>
-                    <p>Elemeto 1</p>
-                </li>
-                <li>
-                    <p>Elemeto 2</p>
-                </li>
-            </ul>
-        </div>
-    )
-}
+import { useState, useEffect } from "react"
 
 const NavBar = () => {
-    const { showList } = useContext(DinamicContext)
     const [nameProduct, setNameProduct] = useState()
     
     useEffect(() => {
@@ -34,16 +17,15 @@ const NavBar = () => {
         setNameProduct(target.value)
     }
     
-
     return (
-        <div className="test">
-            <nav className="navbar navbar-expand-lg bg-body-tertiary" id="navBar-box">
-                <div className="container-fluid">
+        <div className="nuevo">
+            <nav className="navbar navbar-expand-lg bg-body-tertiary">
+                <div className="container">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
-                        <ul className="navbar-nav">
+                        <ul className="navbar-nav mx-2">
                             <li className="nav-item">
                                 <NavLink className="nav-link active text-while" aria-current="page" to="/">Home</NavLink>
                             </li>
@@ -54,7 +36,7 @@ const NavBar = () => {
                                 <Catalogo />
                             </li>
                         </ul>
-                        <form className="d-flex" role="search">
+                        <form className="d-flex my-3 mx-2" role="search">
                             <input className="form-control me-2" type="search" value={nameProduct} onChange={handleInput} placeholder="Buscar por palabra" aria-label="Search" />
                             <NavLink to={`/producto/${nameProduct}`}>
                                 <button className="btn btn-outline-success" type="submit">Buscar</button>
@@ -63,10 +45,7 @@ const NavBar = () => {
                     </div>
                 </div>
             </nav>
-            <div className="">
-                <CartWidget/>
-                {/* <CartWidgetItems show={showList}/> */}
-            </div>
+            <CartWidget/>
         </div>
     )
 }

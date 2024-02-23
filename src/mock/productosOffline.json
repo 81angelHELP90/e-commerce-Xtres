@@ -1,5 +1,6 @@
 [
     {
+        "AGREGADO": "SI",
         "id": 22,
         "title": "Sleek Wireless Computer Mouse",
         "price": 10,
@@ -20,6 +21,7 @@
         }
     },
     {
+        "AGREGADO": "SI",
         "id": 28,
         "title": "Sleek Modern Leather Sofa",
         "price": 53,
@@ -40,6 +42,7 @@
         }
     },
     {
+        "AGREGADO": "SI",
         "id": 30,
         "title": "Elegant Golden-Base Stone Top Dining Table",
         "price": 66,
@@ -60,6 +63,7 @@
         }
     },
     {
+        "AGREGADO": "SI",
         "id": 32,
         "title": "Elegant Solid Wood Dining Table",
         "price": 67,

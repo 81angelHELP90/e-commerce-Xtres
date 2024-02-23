@@ -1,27 +1,19 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
-import servicesProducts from "../../services/products.js"
-import { useEffect, useState } from "react"
+//import servicesProducts from "../../services/products.js"
+import { useEffect, useState, useContext } from "react"
 import { NavLink } from "react-router-dom"
+import { DinamicContext } from "../../Context/DinamicContext.jsx"
 
 const Catalogo = () => {
-    const [itemsCatalogo, setItemsCatalogo] = useState([]);
-
-    useEffect(() => {
-        const promesa = new Promise((resolve) => {
-            resolve(servicesProducts.getUniqueCategories)
-        })
-
-        promesa.then(data => {
-            setItemsCatalogo(data)
-        })
-
-    }, [])
-
+    const { category } = useContext(DinamicContext)
     return (
-          <ul className="dropdown-menu">
-            {itemsCatalogo.map(product => (
-                <NavLink key={product.id} className="nav-link text-while" to={`/categoria/${product.id}`}>{product.name}</NavLink>
+          <ul className="dropdown-menu" id="catalogo" >
+            {category.map((cat, i) => (
+                <div key={cat.id} className="box-category">
+                  <img src={cat.image} className="card-img-top" alt="imagen detalle" />
+                  <NavLink className="nav-link text-while" to={`/categoria/${cat.id}`}>{cat.name}</NavLink>
+                </div>
             ))}
           </ul>
     )
