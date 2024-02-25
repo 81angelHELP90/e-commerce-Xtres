@@ -14,11 +14,6 @@ const ItemListContainer = () => {
     const { _setAllProducs, _setCategory, allProducs } = useContext(DinamicContext)
     const [products, setProducs] = useState([])
     const { categotyId, nameProduct } = useParams()
-
-    //console.log(import.meta.env.VITE_APP_TEST_1) | CON EL PRE-FIJO "VITE" EN EL NOMBRE DE LA VARIABLE SE MUESTRA SU CONTENIDO
-    //console.log(import.meta.env.NUMBER) | SIN EL PRE-FIJO "VITE" EN EL NOMBRE DE LA VARIABLE, SE LEE PERO NO SE MUESTRA
-
-    //FIREBASE: //snapshot porque son los datos crudos de alguna manera. hay que depurar con .docs
    
     useEffect(() => {
         const dbInstance = getFirestore()
@@ -34,7 +29,7 @@ const ItemListContainer = () => {
             const getCollectionRef = collection(dbInstance, import.meta.env.VITE_COLECTION_ITEMS_PRODUCTS)
         
             getDocs(getCollectionRef) 
-                .then((snapshot) => { //allProducs
+                .then((snapshot) => { 
                     let oList = snapshot.docs.map(doc => doc.data())
                     oList.forEach((item, i) => {
                         item.Cant = (allProducs[i] && allProducs[i].Cant) ? allProducs[i].Cant : 0
@@ -65,6 +60,7 @@ const ItemListContainer = () => {
                     <div className="card-body">
                         <h5 className="card-title">{product.title}</h5>
                         <p className="card-text">{product.description}</p>
+                        <p className="card-text text-center">{`Price: $ ${product.price}`}</p>
                         <div className="box-description">
                             <CountWidget item={product} />
                         </div>

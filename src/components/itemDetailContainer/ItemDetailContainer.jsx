@@ -29,12 +29,13 @@ const ItemDetailContainer = () => {
                     <div className="card-body">
                         <h5 className="card-title">{product.title}</h5>
                         <p className="card-text">{product.description}</p>
+                        <p className="card-text text-center">{`Price: $ ${product.price}`}</p>
                         <div className="box-description">
                             <CountWidget item={product} />
                         </div> 
                     </div>
                 </div>
-                <div className="detail-card">
+                <div className="detail-card" id="itemDetail-img">
                     <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             {images.map((imagen, i) => (

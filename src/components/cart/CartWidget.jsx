@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap/dist/js/bootstrap.min.js"
 import { useContext, useEffect, useState } from 'react'
 import '../../App.css'
+import { NavLink } from "react-router-dom"
 import { DinamicContext } from "../../Context/DinamicContext.jsx"
 
 const ItemsCarts = ({ products }) => {
@@ -19,13 +20,15 @@ const ItemsCarts = ({ products }) => {
             ))}
             <div id="footer">
                 <p className="my-2 me-2">Total a pagar: $ {totalCost}</p>
-                <button className="btn btn-outline-success" width="10px" type="submit">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-cart-check me-2 my-2" viewBox="0 0 16 16">
-                        <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
-                        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
-                    </svg>
-                    Terminar compra
-                </button>
+                <NavLink to={`/checkout`}>
+                    <button className="btn btn-outline-success" width="10px" type="submit">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-cart-check me-2 my-2" viewBox="0 0 16 16">
+                            <path d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
+                            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                        Terminar compra
+                    </button>
+                </NavLink>
             </div>
         </ul>
     )
@@ -34,8 +37,8 @@ const ItemsCarts = ({ products }) => {
 const EmptyCarts = () => {
     return (
         <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li>
-                <p>NO HAY ELEMENTOS EN LE CARRITO</p>
+            <li className="emptyCartLi">
+                <p>NO HAY PRODUCTOS EN EL CARRITO</p>
             </li>
         </ul>
     )
@@ -48,11 +51,6 @@ const CartWidget = () => {
     useEffect(() => {
         setValorCart(cantProducts)
     }, [cantProducts])
-
-    /*function showCartContent() {
-        setShowListCart()
-        handleTotalCost()
-    }*/
 
     return (
         <div className="box-cart">

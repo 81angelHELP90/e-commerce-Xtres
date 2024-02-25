@@ -5,6 +5,7 @@ import './App.css'
 import Error404 from "./components/error404/Error404.jsx"
 import ItemListContainer from "./components/itemListContainer/ItemListContainer.jsx"
 import ItemDetailContainer from "./components/itemDetailContainer/ItemDetailContainer.jsx"
+import CheckOut from "./components/checkout/CheckOut.jsx"
 import NavBar from "./components/navbar/NavBar.jsx"
 import { React } from "react";
 import ContextProvider from "./Context/DinamicContext.jsx"
@@ -22,6 +23,7 @@ const App = () => {
           <Route exact path="/categoria/:categotyId" element={<ItemListContainer />} />
           <Route exact path="/detalle/:productId" element={<ItemDetailContainer />} />
           <Route exact path="/producto/:nameProduct" element={<ItemListContainer />} />
+          <Route exact path="/checkout" element={<CheckOut />} />
         </Routes>
       </BrowserRouter>
     </ContextProvider>
